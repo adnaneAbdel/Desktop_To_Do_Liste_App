@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create New Task</title>
+</head>
+<body>
+ 
+    <form  class="timed-form">
+        <div>
+            <label for="">Write New Task</label>
+            <input type="text" class="note" autofocus required >
+        </div>
+        <h3>Remmeber Me After</h3>
+       
+        <div class="time-pick">
+            <label for="">Time</label>
+            <input type="number" value="0" class="pick-hours" required>
+        </div>
+        <div class="time-pick">
+            <label for="">Minute</label>
+            <input type="number" value="0" class="pick-minute" required>
+        </div>
+        <button type="submit" class="submit">
+            Add Task
+        </button>
+    </form>
+    <script>
+        require("../assets/js/timerScript.js")
+    </script>
+</body>
+</html>

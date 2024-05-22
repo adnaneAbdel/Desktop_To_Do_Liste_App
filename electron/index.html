@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./views/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-container_nav">
+            <h1>To Do List</h1>
+        </div>
+        <div class="flexible">
+            <section class="todo todo-normal">
+                <div>
+                    <div>
+                        <h2>To Do List Text </h2>
+                        <ul class="todo-normal-list">
+    
+                        </ul>
+                       <div class="todo-botoom">
+                        <button class="add-new-task">
+                            Add New Task
+                        </button>
+                        <button class="clear-all">
+                            Remove All
+                        </button>
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section class="todo todo-timed">
+                <div>
+                    <div>
+                        <h2>To Do List Timer </h2>
+                        <ul class="todo-timed-list">
+    
+                        </ul>
+                       <div class="todo-botoom">
+                        <button class="add-new-task">
+                            Add New Task
+                        </button>
+                        <button class="clear-all">
+                            Remove All
+                        </button>
+                       </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+       
+        <section class="todo todo--images">
+            <div>
+                <div>
+                    <h2>To Do List with image </h2>
+                    <ul class="todo--images__list">
+
+                    </ul>
+                   <div class="todo-botoom">
+                    <button class="add-new-task">
+                        Add New Task
+                    </button>
+                    <button class="clear-all">
+                        Remove All
+                    </button>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./assets/config/connection.js"></script>
+    <script>
+        require('./assets/js/index.js');
+    </script>
+</body>
+</html>

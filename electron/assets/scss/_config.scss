@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+*{
+    box-sizing:  border-box;
+}
+
+ul{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    list-style:none
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+
+}
+input{
+    outline: none;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-weight: normal;
+}
